@@ -1,2 +1,6 @@
-# abrarrayva.github.io
-My Random Website!
+# About
+This is a random website I created for personal purposes
+
+# Social Media
+Instagram : @abrarrayva
+Twitter : @abrarrayva
