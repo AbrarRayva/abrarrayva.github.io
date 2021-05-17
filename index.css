@@ -20,6 +20,10 @@ body{
     min-height: 100vh;
 }
 
+.text h1{
+    max-width: 75%;
+}
+
 .text p{
     max-width: 75%;
 }
