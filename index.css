@@ -10,7 +10,7 @@ body{
     background-color: black;
 }
 
-.text{
+.home{
     color: white;
     display: flex;
     flex-direction: column;
@@ -20,10 +20,14 @@ body{
     min-height: 100vh;
 }
 
-.text h1{
+.home h1{
     max-width: 75%;
 }
 
-.text p{
+.home p{
+    max-width: 75%;
+}
+
+.home iframe{
     max-width: 75%;
 }
