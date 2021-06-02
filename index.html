@@ -1,15 +1,72 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Home | AbrarRayva</title>
+        <title>DarkfulHQ - AbrarRayva</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
     </head>
     <body>
-        <div class="home">
-            <h1>Darkful HQ</h1>
-            <iframe src="https://discord.com/widget?id=641562570855022602&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+        <button onclick="topFunction()" id="myBtn" title="Kembali ke atas">Kembali Ke Atas</button>
+        <div class="header">
+            <a href="#home" class="logo">DarkfulHQ</a>
+            <div class="header-right">
+                <a href="#rules">Aturan Server</a>
+                <a href="#about">Tentang DarkfulHQ</a>
+            </div>
         </div>
+        <div class="home" id="home">
+            <h1>Darkful HQ</h1>
+            <h3>Komunitas Discord, bebas untuk semua orang.</h3><br>
+            <a id="invite-button" href="https://discord.com/invite/9efmupcnaE">Join sekarang!</a><br><br>
+        </div>
+        <div class="about" id="about">
+            <div id="text-box">
+                <h1>Tentang DarkfulHQ</h1><br>
+                <p>DarkfulHQ adalah sebuah server Discord yang dibuat oleh DarkfulRebel#0873 (DarkfulRebel) pada tahun 2019. Server ini sebelumnya bernama DarkfulRebel's Server. Server ini memiliki beberapa fitur yang pada umumnya ditemui pada server lain seperti bot musik, bot MEE6, dan sebagainya. Akan tetapi, yang unik dari server ini mungkin adalah para member-nya yang sangat ramah.</p><br>
+                <iframe src="https://discord.com/widget?id=641562570855022602&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+            </div>
+        </div>
+        <div class="rules" id="rules">
+            <div id="text-box">
+                <h1>Aturan Server</h1><br>
+                <ol>
+                    <h3>1. Dilarang melakukan tindakan online bullying</h3>
+                    <p>Online bullying adalah tindakan yang dapat berpengaruh terhadap kesehatan mental korban. Jika ada yan melakukan tindakan ini, akan di ban oleh staff.</p>
+                    <br>
+                    <h3>2. Dilarang spam chat / gambar</h3>
+                    <p>Hal ini agar pengguna lain tidak terganggu. Jika ada yang melanggar aturan ini, akan di kick oleh staff.</p>
+                    <br>
+                    <h3>3. Dilarang meminta role/lainnya kepada staff jika tidak memiliki syarat yang dibutuhkan.</h3>
+                    <p>Staff tidak bisa memberikan role atau hal lainnya di server ini jika kalian tidak memiliki izin atau syarat yang dibutuhkan</p>
+                    <br>
+                    <h3>4. Konten NSFW / 18+ sangat dilarang keras</h3>
+                    <p>Jika ada yang melanggar aturan ini, akan di ban oleh Staff</p>
+                    <br>
+                    <p>Patuhi juga peraturan dari Discord</p>
+                    <a href=https://discord.com/guidelines>https://discord.com/guidelines</a>
+                </ol>
+            </div>
+        </div>
+        
+        <script>
+            var mybutton = document.getElementById("myBtn");
+        
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
     </body>
 </html>
