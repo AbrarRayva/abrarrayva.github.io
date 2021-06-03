@@ -35,7 +35,7 @@ html {
 
 .header {
     overflow: hidden;
-    background-color: #5865F2;
+    background-color: #3741aa;
     padding: 20px 10px;
 }
 
@@ -67,6 +67,20 @@ html {
     }
     .header-right {
         float: none;
+    }
+
+    .about #text-box figure{
+        display: none;
+    }
+
+    .header{
+        background-color: #3b44a5;
+    }
+}
+
+@media screen and (max-height: 700px) {
+    .about #text-box figure{
+        display: none;
     }
 }
 
@@ -127,14 +141,21 @@ html {
 
 .about #text-box{
     position: absolute;
-    margin-left: 5%;
-    margin-top: 5%;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
     color: rgb(0, 0, 0);
     max-width: 75%;
 }
 
-#text-box iframe{
+.about #text-box figure a img{
     max-width: 75%;
+    border-radius: 15px;
+    transition: 100ms;
+}
+
+.about #text-box figure a img:hover{
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.500));
+    transition: 100ms;
 }
 
 #rules{
@@ -146,8 +167,8 @@ html {
 
 .rules #text-box{
     position: absolute;
-    margin-left: 5%;
-    margin-top: 5%;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
     color: rgb(0, 0, 0);
     max-width: 75%;
 }
